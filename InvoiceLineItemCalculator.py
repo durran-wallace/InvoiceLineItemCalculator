@@ -44,10 +44,9 @@ def main():
         quitOrCont = input("Enter another line item? (y/n)")
         if quitOrCont.lower() == "n":
             print("Bye!")
-            break
         elif quitOrCont.lower() == "y":
             main()
-            
+        break    
         
 if __name__ == "__main__":
     main()
